@@ -421,10 +421,10 @@ figure.dude a {
 
 
 /* ==========================================================================
-                tarif rules
+                budget & enjeux rules
 ========================================================================== */
 
-.maintarif {
+.mainBudEnj {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
@@ -434,55 +434,13 @@ figure.dude a {
     flex-wrap: wrap;
 }
 
-.tarif {
-    background-color: #FF3745;
-    color: white;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 30px;
-    border: 2px solid #FF3745;
-    border-radius: 4px;
-}
-
-.tarif ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-.tarif ul li {
-    padding: 5px 0;
-    width: 100%;
-}
-
-.tarif ul li:first-child {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: white;
-    color: #222;
-    padding: 20px 0;
-    font-weight: bolder;
-    font-size: 200%;
-}
-
-.tarif ul li:last-child {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tarif a {
-    color: white;
-    border: 1px solid white;
-    border-radius: 4px;
-    padding: 10px;
-    text-decoration: none;
+.BudEnj p {
+    margin-top: 10px;
 }
 
 
 /* ==========================================================================
-                   end of tarif rules
+                   end of budget & enjeux rules
 ========================================================================== */
 
 
@@ -582,8 +540,8 @@ footer ul li i
     /* ==========================================================================
                       tarif rules
   ========================================================================== */
-    .tarif {
-        width: 30%;
+    .BudEnj {
+        width: 90%;
     }
     /* ==========================================================================
                      end of tarif rules
