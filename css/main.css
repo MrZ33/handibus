@@ -344,11 +344,14 @@ footer ul li i
         display: block;
         width: 100%;
         z-index: 999;
+        position: fixed;
+        left: 0;
+        top: 0;
+
     }
     #menu ul {
         display: flex;
         background-color:#31c074ff;
-;
         list-style-type: none;
         margin: auto;
         justify-content: center;
@@ -367,12 +370,37 @@ footer ul li i
 ========================================================================== */
 
     /* ==========================================================================
-                     end of service
+                  hover
   ========================================================================== */
-    /* ==========================================================================
-                  teamblock
-  ========================================================================== */
+  /* Blur */
+  .hover07 figure img {
+  	-webkit-filter: blur(3px);
+  	filter: blur(3px);
+  	-webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
+  }
+  .hover07 figure:hover img {
+  	-webkit-filter: blur(0);
+  	filter: blur(0);
+  }
 
+  #blurimg
+  {
+    width: 100%;
+  }
+
+  #blurbox
+  {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+  }
+
+  figcaption
+  {
+
+  }
     /* ==========================================================================
                      end of teamblock
   ========================================================================== */
